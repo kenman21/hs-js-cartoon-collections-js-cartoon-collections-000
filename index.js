@@ -1,6 +1,6 @@
 function dwarfRollCall(dwarves) { 
   var string = ""
-  for (var i = 0; i<dwarves.length; i++) {
+  for (var i = 0; i<dwarves.length/2; i++) {
     string = `${string} ${i+1}. ${dwarves[i]}`
   }
   return string
@@ -43,7 +43,7 @@ function WordswithB(words) {
       names.push(words[i])
     }
     }
-    
+    return names
   }
 
 
