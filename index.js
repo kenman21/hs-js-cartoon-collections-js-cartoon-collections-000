@@ -35,3 +35,19 @@ function findTheCheese (foods) {
   }
   return "no cheese!"
 }
+
+function WordswithB(words) {
+  var names = []
+  for (var i = 0; i< words.length; i++) {
+    if (words[i][0] == "B") {
+      names.push(words[i])
+    }
+    }
+    
+  }
+
+
+
+
+
+
